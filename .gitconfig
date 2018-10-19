@@ -1,0 +1,18 @@
+[user]
+  name = James Acklin
+  email = james.acklin@gmail.com
+[color]
+  status = auto
+  branch = auto
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+[push]
+  default = simple
+[credential]
+  helper = cache
+  username = james.acklin@gmail.com
+
+[core]
+  editor = atom
