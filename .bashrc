@@ -1,3 +1,9 @@
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
 # First things first: are we on a Mac?
 MAC=no; uname | grep -q Darwin; [ $? -eq 0 ] && MAC=yes
 
@@ -9,10 +15,6 @@ alias projects='cd ~/Projects'
 alias ~='cd ~'
 alias ..='cd ..'
 alias ...="cd ..."
-
-# Work stuff
-# Tell docker our "local" user ID, so it starts up with that UID
-export LOCAL_UID=$(id -u)
 
 # Shell prompt based on the Solarized Dark theme.
 # Screenshot: http://i.imgur.com/EkEtphC.png
