@@ -9,7 +9,10 @@ alias projects='cd ~/Projects'
 alias ~='cd ~'
 alias ..='cd ..'
 alias ...="cd ..."
-alias rhiza-dev='sshfs acklin@hydrogen.rhizalytics.com:/home/acklin/rhiza ~/Desktop/Projects/rhiza && ssh acklin@hydrogen.rhizalytics.com'
+
+# Work stuff
+# Tell docker our "local" user ID, so it starts up with that UID
+export LOCAL_UID=$(id -u)
 
 # Shell prompt based on the Solarized Dark theme.
 # Screenshot: http://i.imgur.com/EkEtphC.png
