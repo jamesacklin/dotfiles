@@ -24,8 +24,15 @@ go get github.com/FooSoft/homemaker
 go run github.com/FooSoft/homemaker $HOME/Projects/dotfiles/homemaker.tml $HOME/Projects/dotfiles
 ```
 
+Linux:
+
+```
+chmod +x ./homemaker_x64
+./homemaker_x64 ./homemaker.tml .
+```
+
 ## Customization
 
 Lots of interesting things happening in macos.sh, mostly copied wholesale from [https://github.com/mathiasbynens/dotfiles/blob/master/.macos](Mathias Bynens)
 
-*Copyright (c) 2015 Christopher DeMarco <<cdemarco@gmail.com>>. All rights reserved.*
+Thanks to [@cmd](https://github.com/christopher-demarco) for the Homemaker instructions.
