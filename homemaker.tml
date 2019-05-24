@@ -4,4 +4,6 @@
 		[".bashrc"],
 		[".bash_profile"],
 		[".gitconfig"],
+		[".vimrc"],
+		[".vimrc.plug"]
 	]

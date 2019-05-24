@@ -1,0 +1,10 @@
+call plug#begin('~/.vimplugged')
+
+" Fugitive Github wrapper
+Plug 'tpope/vim-fugitive'
+" Nerdtree file system explorer
+Plug 'scrooloose/nerdtree'
+" Ctrlp fuzzy file, buffer, menu, tag etc finder
+Plug 'ctrlpvim/ctrlp.vim'
+
+call plug#end()
