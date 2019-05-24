@@ -16,6 +16,12 @@ alias ~='cd ~'
 alias ..='cd ..'
 alias ...="cd ..."
 
+# Work stuff
+alias rhiza-vpn='sudo openvpn --config ~/client.ovpn'
+alias rhiza-ssh='ssh jamesacklin@helium.rhizalytics.com'
+alias rhiza-dev='sshcode jamesacklin@helium.rhizalytics.com /home/jamesacklin/Projects/rhiza/asgard/web/apps'
+alias rhiza-tmux="ssh jamesacklin@helium.rhizalytics.com -t tmux a"
+
 # Shell prompt based on the Solarized Dark theme.
 # Screenshot: http://i.imgur.com/EkEtphC.png
 # Heavily inspired by @necolas’s prompt: https://github.com/necolas/dotfiles
