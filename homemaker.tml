@@ -5,6 +5,6 @@
 		[".bash_profile"],
 		[".gitconfig"],
 		[".vimrc"],
-		[".vimrc.plug"]
+		[".vimrc.plug"],
 		[".tmux.conf"]
 	]
