@@ -16,7 +16,7 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 set nu
 
 set list
-set listchars=tab:»»
+set listchars=tab:»»,eol:¬,space:·
 set wrap
 set linebreak
 
