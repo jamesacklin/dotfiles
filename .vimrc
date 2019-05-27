@@ -21,7 +21,7 @@ autocmd vimenter * NERDTree
 let NERDTreeShowHidden = 1
 
 " Close vim if the only window left is nerdtree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " http://stackoverflow.com/a/21891088/482425
 " Let the nerdtree root be the cwd for ctrl-p - basically tells ctrl-p to
