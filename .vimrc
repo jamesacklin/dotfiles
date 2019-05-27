@@ -99,4 +99,8 @@ let g:rainbow_conf = {
       \ ],
       \ }
 
+" But we also want to highlight matching brackets
+hi MatchParen cterm=none ctermbg=green ctermfg=blue
 
+" Remap C+w to <Leader>+w 
+nnoremap <Leader>w <C-w>
