@@ -13,5 +13,7 @@ Plug 'guns/vim-clojure-highlight',                 { 'for' : 'clojure' }
 Plug 'guns/vim-clojure-static',                    { 'for' : 'clojure' }
 " Airline
 Plug 'vim-airline/vim-airline'
+" Rainbow parens
+Plug 'luochen1990/rainbow'
 
 call plug#end()
