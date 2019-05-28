@@ -15,5 +15,7 @@ Plug 'guns/vim-clojure-static',                    { 'for' : 'clojure' }
 Plug 'vim-airline/vim-airline'
 " Rainbow parens
 Plug 'luochen1990/rainbow'
+" GitGutter
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
