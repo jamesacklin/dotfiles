@@ -17,5 +17,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'luochen1990/rainbow'
 " GitGutter
 Plug 'airblade/vim-gitgutter'
+" Vim-Vue
+Plug 'posva/vim-vue'
 
 call plug#end()

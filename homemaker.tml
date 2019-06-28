@@ -1,10 +1,11 @@
 [tasks.default]
-	links = [
-		[".homemaker.tml", "homemaker.tml"],
-		[".bashrc"],
-		[".bash_profile"],
-		[".gitconfig"],
-		[".vimrc"],
-		[".vimrc.plug"],
-		[".tmux.conf"]
-	]
+links = [
+  [".homemaker.tml", "homemaker.tml"],
+  [".bashrc"],
+  [".bash_profile"],
+  [".gitconfig"],
+  [".vimrc"],
+  [".vimrc.plug"],
+  [".tmux.conf"],
+  [".config/alacritty/alacritty.yml", ".config/alacritty/alacritty.yml"]
+]
