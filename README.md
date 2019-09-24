@@ -33,6 +33,6 @@ chmod +x ./homemaker_x64
 
 ## Customization
 
-Lots of interesting things happening in macos.sh, mostly copied wholesale from [https://github.com/mathiasbynens/dotfiles/blob/master/.macos](Mathias Bynens)
+Lots of interesting things happening in macos.sh, mostly copied wholesale from [Mathias Bynens](https://github.com/mathiasbynens/dotfiles/blob/master/.macos)
 
 Thanks to [@cmd](https://github.com/christopher-demarco) for the Homemaker instructions.
