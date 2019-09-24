@@ -6,6 +6,5 @@ links = [
   [".gitconfig"],
   [".vimrc"],
   [".vimrc.plug"],
-  [".tmux.conf"],
-  [".config/alacritty/alacritty.yml", ".config/alacritty/alacritty.yml"]
+  [".tmux.conf"]
 ]
