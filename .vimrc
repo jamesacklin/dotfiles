@@ -80,7 +80,7 @@ let g:html_indent_tags = 'li\|p'
 
 " Syntax highlighting + color scheme
 syntax on
-colorscheme onedark
+" colorscheme onedark
 
 " Indent always on
 filetype plugin indent on

@@ -137,7 +137,7 @@ PS1+="\[${reset}\] in ";
 PS1+="\[${green}\]\w"; # working directory full path
 PS1+="\$(prompt_git \"\[${reset}\] on \[${violet}\]\" \"\[${blue}\]\")"; # Git repository details
 PS1+="\n";
-PS1+="\[${reset}\]λ \[${reset}\]"; # `λ` (and reset color)
+PS1+="\[${reset}\]🐚 \[${reset}\]"; # `🐚` (and reset color)
 export PS1;
 
 PS2="\[${yellow}\]→ \[${reset}\]";

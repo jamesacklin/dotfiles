@@ -3,6 +3,7 @@ links = [
   [".homemaker.tml", "homemaker.tml"],
   [".bashrc"],
   [".bash_profile"],
+  [".zshrc"],
   [".gitconfig"],
   [".vimrc"],
   [".vimrc.plug"],

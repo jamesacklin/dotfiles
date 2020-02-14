@@ -7,7 +7,7 @@ Plug 'scrooloose/nerdtree'
 " Ctrlp fuzzy file, buffer, menu, tag etc finder
 Plug 'ctrlpvim/ctrlp.vim'
 " OneDark theme
-Plug 'joshdick/onedark.vim'
+" Plug 'joshdick/onedark.vim'
 " Clojure Formatter
 Plug 'guns/vim-clojure-highlight',                 { 'for' : 'clojure' }
 Plug 'guns/vim-clojure-static',                    { 'for' : 'clojure' }
